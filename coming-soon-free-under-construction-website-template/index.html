@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Coming Soon</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="TemplatesJungle">
+	<meta name="keywords" content="Coming soon, under Construction">
+	<meta name="description" content="Coming Soon - Free Under Construction Website Template with Countdown">
+	<link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet">
+</head>
+
+<style type="text/css">
+	body {
+		font-family: "Roboto", sans-seriff;
+		color: #fff;
+		margin: 0;
+		background: url(images/bg.jpg) no-repeat;
+	}
+
+	a,
+	button {
+		transition: 0.3s all ease-out;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #fff;
+	}
+
+	textarea:focus,
+	input:focus {
+		outline: none;
+	}
+
+	#body-wrap {
+		padding: 100px 20px;
+	}
+
+	.container {
+		margin: 50px auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	header#header {
+		margin-bottom: 120px;
+	}
+
+	.main-content h1 {
+		font-size: 3em;
+		font-weight: 800;
+		margin-bottom: 0;
+	}
+
+	#countdown-clock {
+		font-size: 30px;
+		display: flex;
+		justify-content: center;
+		margin: 50px;
+	}
+
+	#countdown-clock>.time {
+		background: rgba(137, 137, 137, 0.3);
+		border-radius: 10px;
+		padding: 20px;
+		margin-right: 10px;
+	}
+
+	#countdown-clock .time>span {
+		font-weight: 700;
+	}
+
+	#countdown-clock .time small {
+		padding-top: 5px;
+		font-size: 12px;
+		text-transform: uppercase;
+		display: block;
+	}
+
+	.main-content p {
+		font-size: 1em;
+		margin: 0;
+		color: #aaa;
+	}
+
+	#form .form-group {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0;
+	}
+
+	input::placeholder {
+		color: #949393;
+	}
+
+	.form-group input.form-control {
+		width: 250px;
+		height: 50px;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+		padding-left: 20px;
+		border: none;
+	}
+
+	.form-group button.submit-button {
+		padding: 18px 30px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		background-color: #0043ee;
+		border: none;
+		cursor: pointer;
+		color: #fff;
+	}
+
+	.form-group button.submit-button:hover {
+		background-color: #222630;
+	}
+
+	.form-group button.submit-button span {
+		font-weight: 700;
+		padding-left: 5px;
+	}
+
+	#footer .social-links {
+		padding-top: 20px;
+	}
+
+	#footer .social-links ul {
+		display: flex;
+		justify-content: center;
+		list-style: none;
+	}
+
+	#footer .social-links li {
+		padding-right: 20px;
+	}
+
+	#footer .social-links ul a {
+		font-size: 1.6em;
+		text-decoration: none;
+	}
+
+	.copyright {
+		color: #aaa;
+	}
+
+	@media (max-width: 768px) {
+		header#header {
+			margin-bottom: 50px;
+		}
+
+		#body-wrap {
+			padding: 0px 20px;
+		}
+
+		#countdown-clock>.time {
+			padding: 14px;
+		}
+
+		.form-group button.submit-button {
+			width: 140px;
+			padding: 18px 9px;
+		}
+	}
+</style>
+
+<body>
+
+	<div id="body-wrap">
+		<div class="container">
+
+			<header id="header">
+				<div class="logo">
+					<img src="images/petaniglobal2.png" width="200px" alt="logo">
+				</div>
+			</header>
+
+			<div class="main-content light">
+
+				<div class="page-title">
+
+					<h1>Whipping up our website</h1>
+
+					<div id="countdown-clock">
+						<div class="time">
+							<span class="days"></span>
+							<small>Days</small>
+						</div>
+						<div class="time">
+							<span class="hours"></span>
+							<small>Hours</small>
+						</div>
+						<div class="time">
+							<span class="minutes"></span>
+							<small>Minutes</small>
+						</div>
+						<div class="time">
+							<span class="seconds"></span>
+							<small>Seconds</small>
+						</div>
+					</div>
+
+				</div>
+				<!--page-title-->
+
+				<form id="form">
+
+					<p>Get notified when we launched our website</p>
+
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Your email address">
+						<button type="button" class="submit-button"><i class="icon icon-envelope"></i><span>NOTIFY
+								ME</span></button>
+					</div>
+
+				</form>
+
+			</div>
+			<!--main-content-->
+
+			<footer id="footer" class="light">
+
+				<div class="social-links">
+					<ul>
+						<li><a href="#"><i class="icon icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon icon-github"></i></a></li>
+						<li><a href="#"><i class="icon icon-google-plus"></i></a></li>
+						<li><a href="#"><i class="icon icon-linkedin"></i></a></li>
+						<li><a href="#"><i class="icon icon-twitter"></i></a></li>
+					</ul>
+				</div>
+				<!--social-links-->
+
+				<div class="copyright">
+					<p>Copyright &copy; by <a href="#"
+							target="">Petaniglobal</a> 2024.</p>
+				</div>
+
+			</footer>
+
+		</div>
+	</div>
+	<!--body-wrap-->
+
+
+	<script type="text/javascript">
+		function getTimeRemaining(endtime) {
+			const total = Date.parse(endtime) - Date.parse(new Date());
+			const seconds = Math.floor((total / 1000) % 60);
+			const minutes = Math.floor((total / 1000 / 60) % 60);
+			const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
+			const days = Math.floor(total / (1000 * 60 * 60 * 24));
+
+			return {
+				total,
+				days,
+				hours,
+				minutes,
+				seconds
+			};
+		}
+
+		function initializeClock(id, endtime) {
+			const clock = document.getElementById(id);
+			const daysSpan = clock.querySelector('.days');
+			const hoursSpan = clock.querySelector('.hours');
+			const minutesSpan = clock.querySelector('.minutes');
+			const secondsSpan = clock.querySelector('.seconds');
+
+			function updateClock() {
+				const t = getTimeRemaining(endtime);
+
+				daysSpan.innerHTML = t.days;
+				hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+				minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+				secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+				if (t.total <= 0) {
+					clearInterval(timeinterval);
+				}
+			}
+
+			updateClock();
+			const timeinterval = setInterval(updateClock, 1000);
+		}
+
+		const deadline = new Date(Date.parse(new Date()) + 8 * 24 * 60 * 60 * 1000);
+		initializeClock('countdown-clock', deadline);
+	</script>
+
+
+</body>
+
+</html>
